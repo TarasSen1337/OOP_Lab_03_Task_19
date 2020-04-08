@@ -1,4 +1,2 @@
 ﻿  Counter.cpp
-  OOP_Lab_03.cpp
-  Generating Code...
-  OOP_Lab_03.vcxproj -> C:\Users\gyper\Documents\!uni\1.2\OOP\OOP_Lab_03_Task_19\Debug\OOP_Lab_03.exe
+C:\Users\gyper\Documents\!uni\1.2\OOP\OOP_Lab_03_Task_19\OOP_Lab_03\Counter.cpp(47,19): error C3867: 'Counter::GetValue': non-standard syntax; use '&' to create a pointer to member

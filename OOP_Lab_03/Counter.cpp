@@ -41,3 +41,18 @@ void Counter::Count() {
 void Counter::GetValue() {
 	cout << "Counter value: " << value << endl;
 }
+
+ostream & operator<<(ostream &out, const Counter &c)
+{
+	out << c.GetValue;
+	return out;
+}
+
+bool operator<= (const Counter& c1, const Counter& c2)
+{
+	return c1.value <= c2.value;
+}
+Counter operator++(Counter& c) {
+	c.value++;
+	if (c.value > c.max - 1) c.value = c.min;
+}
